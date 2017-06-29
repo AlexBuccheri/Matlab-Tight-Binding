@@ -52,7 +52,7 @@ function[fval,meff_array,dH,dL,Eg_array,deltaSO_array,band_RMS,mxbnd_err] = minb
     %-----------------------------------------------------------
     
     %Read in orthogonal TB parameters
-    fid=fopen('/Users/alexanderbuccheri/Documents/MATLAB/SO/parameters.dat','r');
+    fid=fopen('parameters.dat','r');
     parameter=fscanf(fid,'%g',[Np,Nc]);
     fclose(fid);
     parameter=parameter';
