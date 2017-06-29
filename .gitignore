@@ -1,0 +1,2 @@
+#Ignore these objects when pushing to remote
+.DS_Store
